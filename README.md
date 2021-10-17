@@ -21,7 +21,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## run the end to end test cases
 
-To run the application first need to start the app
+To run the e2e test cases first need to start the app
 
 ### `npm start`
 
