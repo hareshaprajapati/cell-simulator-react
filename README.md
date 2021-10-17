@@ -2,7 +2,7 @@
 
 ## Clone the repo from github
 
-### git clone https://github.com/hareshaprajapati/cell-simulator-react.git
+### `git clone https://github.com/hareshaprajapati/cell-simulator-react.git`
 
 ## Install depenencies
 
