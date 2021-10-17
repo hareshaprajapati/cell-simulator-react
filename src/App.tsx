@@ -56,16 +56,16 @@ const App = () => {
           grid.map((row, rowIndex) => {
             return <div className="row" key={rowIndex}>
               {row.map((column, columnIndex) =>
-                <div className={` ${grid[rowIndex][columnIndex] === 1 ? 'selected-column' : ''} col `} onClick={() => setConfig(rowIndex, columnIndex)}
-                  key={`${rowIndex}+${columnIndex}`} />
+                <div data-testid={`cell-${rowIndex}-${columnIndex}`} className={`col ${grid[rowIndex][columnIndex] === 1 ? 'selected-column' : ''}`} onClick={() => setConfig(rowIndex, columnIndex)}
+                  key={`${rowIndex}-${columnIndex}`} />
               )}
             </div>
           })
         }
       </div>
       <div className="btn-container">
-        <button disabled={!canGenerateNext} className={`btn next-generation-btn ${!canGenerateNext ? 'disable-btn' : 'active-btn'} `} onClick={generateNext}>Next Generation</button>
-        <button disabled={!canGenerateNext} className={`btn reset-btn ${!canGenerateNext ? 'disable-btn' : 'active-btn'} `} onClick={resetConfig}>Reset</button>
+        <button data-testid="nextGenBtn" disabled={!canGenerateNext} className={`btn next-generation-btn ${!canGenerateNext ? 'disable-btn' : 'active-btn'} `} onClick={generateNext}>Next Generation</button>
+        <button data-testid="resetBtn" disabled={!canGenerateNext} className={`btn reset-btn ${!canGenerateNext ? 'disable-btn' : 'active-btn'} `} onClick={resetConfig}>Reset</button>
       </div>
     </div >
   );
