@@ -1,6 +1,8 @@
 # Cell Simulator Game
 
-## Git clone from https://github.com/hareshaprajapati/cell-simulator-react.git
+## Clone the repo from github
+
+### git clone https://github.com/hareshaprajapati/cell-simulator-react.git
 
 ## Install depenencies
 
@@ -15,11 +17,11 @@ First install the required depenencies
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## run the unit test cases
+## Run the unit test cases
 
 ### `npm test`
 
-## run the end to end test cases
+## Run the end to end test cases
 
 To run the e2e test cases first need to start the app
 
