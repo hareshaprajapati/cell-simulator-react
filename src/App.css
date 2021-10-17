@@ -3,8 +3,9 @@
   flex-direction: column;
   align-items: center;
   background: black;
-  height: 100vh;
   justify-content: center;
+  margin: 8px;
+  padding: 10px;
 }
 
 .grid:hover {
@@ -14,13 +15,14 @@
 .row {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .col {
   display: flex;
   flex-direction: column;
   background: #dee6e9;
   border: 2px solid #9e9ed4;
-  padding: 16px;
+  padding: 12px;
 }
 
 .selected-column {
