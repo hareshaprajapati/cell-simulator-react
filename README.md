@@ -4,6 +4,8 @@ The "game" is a zero-player game, meaning that its evolution is determined by it
 requiring no further input. One interacts with the Cell Simulator by creating an initial configuration
 and observing how it evolves.
 
+Test URL : https://cellsimulator.azurewebsites.net/
+
 ## Acceptance criteria
 
   At initial state, User should see an empty board.  
